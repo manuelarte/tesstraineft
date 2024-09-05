@@ -1,6 +1,6 @@
 # Training Tesseract With Bender Font
 
-Install the Bender font first [./fonts/Bender](fonts/Bender)
+This project's goal is to generate training data for [Tesseract](https://github.com/tesseract-ocr/tesseract) using the font Bender [./fonts/Bender](fonts/Bender)
 
 ## Generate gt.txt and TIFF images from input.txt
 
