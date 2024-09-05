@@ -9,4 +9,5 @@ This will generate the .gt.txt and .tiff images in the [data](./data) folder
 
 ## Train Tesseract
 
+[tesstrain](https://github.com/tesseract-ocr/tesstrain/)
 TODO
