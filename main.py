@@ -1,6 +1,6 @@
 from PIL import Image, ImageDraw, ImageFont
 
-DATA_DIR = "data"
+DATA_DIR = "./data"
 OFT_FONT_DIR = "./fonts/Bender/Jovanny Lemonad - Bender.otf"
 
 
@@ -44,8 +44,8 @@ def main():
 
         # Save the image as a TIFF file
         filename = f"line_{i+1}"
-        image.save(f"./{DATA_DIR}/{filename}.tiff")
-        with open(f"./{DATA_DIR}/{filename}.gt.txt", "w+") as file:
+        image.save(f"{DATA_DIR}/{filename}.tiff")
+        with open(f"{DATA_DIR}/{filename}.gt.txt", "w+") as file:
             file.write(line)
 
     print("TIFF images generated successfully.")
